@@ -10196,4 +10196,31 @@ h3 {
   background-color: #916000;
   width: 100%;
   height: 0 auto;
+  padding: 14px 0;
+  margin-bottom: 80px;
+}
+
+.header-navbar {
+  font-weight: bolder;
+  list-style: none;
+}
+
+.header-navbar li {
+  padding-right: 28px;
+}
+
+.header-navbar li a {
+  color: #FFFFFF;
+}
+
+.log-in-content {
+  margin-bottom: 82px;
+}
+
+.log-in-form h2 {
+  font-weight: bolder;
+}
+
+.log-in-check-btn button {
+  border: solid 1px #916000;
 }
