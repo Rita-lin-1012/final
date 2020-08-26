@@ -10070,6 +10070,27 @@ h3 {
     display: none;
   }
 }
+.header-nav {
+  background-color: #916000;
+  width: 100%;
+  height: 0 auto;
+  padding: 14px 0;
+  margin-bottom: 80px;
+}
+
+.header-navbar {
+  font-weight: bolder;
+  list-style: none;
+}
+
+.header-navbar li {
+  padding-right: 28px;
+}
+
+.header-navbar li a {
+  color: #FFFFFF;
+}
+
 .footer {
   background-image: url(../img/firstpagefooter.png);
   height: 600px;
@@ -10192,27 +10213,6 @@ h3 {
   margin-bottom: 60px;
 }
 
-.header-nav {
-  background-color: #916000;
-  width: 100%;
-  height: 0 auto;
-  padding: 14px 0;
-  margin-bottom: 80px;
-}
-
-.header-navbar {
-  font-weight: bolder;
-  list-style: none;
-}
-
-.header-navbar li {
-  padding-right: 28px;
-}
-
-.header-navbar li a {
-  color: #FFFFFF;
-}
-
 .log-in-content {
   margin-bottom: 82px;
 }
@@ -10223,4 +10223,20 @@ h3 {
 
 .log-in-check-btn button {
   border: solid 1px #916000;
+}
+
+.product-list-item li {
+  list-style: none;
+}
+
+.icon {
+  margin-bottom: 60px;
+}
+
+.icon-heart {
+  margin-right: 10px;
+}
+
+.product-list-price {
+  margin-left: 8px;
 }
