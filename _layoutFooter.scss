@@ -1,23 +1,12 @@
 //footer
 .footer{
-    position: relative;
+    background-image: url(../img/firstpagefooter.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.footer-img{
-    width: 100%;
-    margin: 0 auto;
-}
-.footer-inner{
-    color: #8D8D8D;
-    position: absolute;
-    left: 25%;
-    top: 50%;
-}
-@media(max-width:767px){
-    .footer-inner{
-        position: absolute;
-        left: 20%;
-        top: 20%;
-    }
+.footer-word{
+    margin-top: 300px;
 }
 .footer-word h2{
     margin-bottom: 20px;

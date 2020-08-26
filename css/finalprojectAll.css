@@ -10071,28 +10071,16 @@ h3 {
   }
 }
 .footer {
-  position: relative;
+  background-image: url(../img/firstpagefooter.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.footer-img {
-  width: 100%;
-  margin: 0 auto;
+.footer-word {
+  margin-top: 300px;
 }
 
-.footer-inner {
-  color: #8D8D8D;
-  position: absolute;
-  left: 25%;
-  top: 50%;
-}
-
-@media (max-width: 767px) {
-  .footer-inner {
-    position: absolute;
-    left: 20%;
-    top: 20%;
-  }
-}
 .footer-word h2 {
   margin-bottom: 20px;
 }
@@ -10129,6 +10117,10 @@ h3 {
   margin: 0 auto;
 }
 
+.banner-content {
+  margin-top: 100px;
+}
+
 .banner-word-h1 {
   font-size: 60px;
 }
@@ -10137,7 +10129,8 @@ h3 {
   cursor: pointer;
   border: 2px solid #FFFFFF;
   border-radius: 30px;
-  padding: 20px 200px;
+  padding: 20px 100px;
+  white-space: nowrap;
 }
 
 @media (max-width: 767px) {
@@ -10158,10 +10151,6 @@ h3 {
 .info-odd {
   display: flex;
   flex-direction: row-reverse;
-}
-
-.info-item {
-  padding: 0 110px;
 }
 
 .infoBottom h6 {
