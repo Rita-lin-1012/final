@@ -1,0 +1,41 @@
+//footer
+.footer{
+    position: relative;
+}
+.footer-img{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-inner{
+    color: #8D8D8D;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+@media(max-width:767px){
+    .footer-inner{
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
+}
+.footer-word h2{
+    margin-bottom: 20px;
+}
+@media(max-width:767px){
+    .email{
+        max-width: 220px;
+    }
+}
+@media(max-width:375px){
+    .email{
+        max-width: 150px;
+    }
+}
+//最下面
+.footer-nav{
+    height: 80px;
+}
+.footer-navbar li{
+    margin-right: 36px;
+}

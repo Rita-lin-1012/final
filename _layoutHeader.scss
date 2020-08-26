@@ -1,0 +1,16 @@
+//header
+.manu{
+    margin: 20px 0;
+    &-list{
+        margin: 0 16px;
+    }
+}
+@media (max-width:767px) {
+    .header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .manu-list p{
+        display: none;
+    }
+}
