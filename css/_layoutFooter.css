@@ -1,0 +1,32 @@
+.footer {
+  background-image: url(../img/firstpagefooter.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-word {
+  margin-top: 300px;
+}
+
+.footer-word h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .email {
+    max-width: 220px;
+  }
+}
+@media (max-width: 375px) {
+  .email {
+    max-width: 150px;
+  }
+}
+.footer-nav {
+  height: 80px;
+}
+
+.footer-navbar li {
+  margin-right: 36px;
+}
