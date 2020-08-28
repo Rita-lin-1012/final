@@ -13,25 +13,24 @@
 <div class="container header">
     <div class="row header d-flex justify-content-around align-items-center">
         <div class="col-5 col-md-3 col-lg-2 logo">
-            <a href="#"><img src="img/logo.png" alt="logo"></a>
+            <a href="firstpage.html"><img src="img/logo.png" alt="logo"></a>
         </div>
         <div class="col-5 col-md-7 manu d-flex justify-content-end">
             <div class="manu-list d-none d-lg-flex">
                 <a href="#"><img src="img/tshirt.svg" alt=""></a>
-                <p class="text-dark">Product</p>
+                <a href="#"><p class="text-dark">Product</p></a>
             </div>
             <div class="manu-list d-none d-lg-flex">
-                <a href="#"><img src="img/user-alt (1).svg" alt=""></a>
-                <p class="text-dark">log in
-                </p>
+                <a href="log-in.html"><img src="img/user-alt (1).svg" alt=""></a>
+                <a href="log-in.html"><p class="text-dark">log in</p></a>
             </div>
             <div class="manu-list d-none d-lg-flex">
                 <a href="#"><img src="img/heart.svg" alt=""></a>
-                <p class="text-dark">Wishlist</p>
+                <a href="#"><p class="text-dark">Wishlist</p></a>
             </div>
             <div class="manu-list d-flex">
                 <a href="#"><img src="img/shopping-cart.svg" alt=""></a>
-                <p class="text-dark">Cart(3)</p>
+                <a href="#"><p class="text-dark">Cart(3)</p></a>
             </div>
             <div class="manu-list d-flex d-lg-none">
                 <a href="#">
@@ -42,7 +41,7 @@
     </div>
 </div>
 <!--header下面那一排 -->
-<div class="header-nav">
+<div class="header-nav d-lg-block d-none">
     <div class="container">
         <ul class="header-navbar d-none d-lg-flex">
             <li><a href="#">CHANEL</a></li>
@@ -117,8 +116,8 @@
             <p>Jo Malone</p>
             <p>NT$1,380<span class="product-list-price"> <del class="text-muted">NT$1,580</del></span></p>
             <div class="icon d-flex">
-                <a href="#"> <img class="icon-heart" src="img/heart (1).svg" alt=""></a>
-                <a href="#"><img src="img/shopping-cart (1).svg" alt=""></a>
+                <a href="product-info.html"> <img class="icon-heart" src="img/heart (1).svg" alt=""></a>
+                <a href="product-info.html"><img src="img/shopping-cart (1).svg" alt=""></a>
             </div>
         </li>
         <li class="col-6 col-md-3">
@@ -186,11 +185,23 @@
         </li>
     </ul>
 </div>
+<!-- 分頁 -->
+<div class="container">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination d-flex justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+        </ul>
+    </nav>
+</div>
+  
 <!-- footer -->
 <div class="footer img-fluid">
     <div class="container footer-inner">
         <div class="row">
-            <div class="col-md-4 footer-word">
+            <div class="col-md-6 footer-word">
                 <h2>記得 <br> 訂閱以獲取更多資訊！</h2>
                 <div class="input-group">
                     <input type="text" class="form-control email" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="button-addon">
@@ -208,7 +219,7 @@
     <div class="container">
         <div class="row py-8">
             <div class="col-12 col-md-8 d-flex align-items-center px-0">
-                <a href="#">
+                <a href="firstpage.html">
                     <img class="mr-2 mr-md-8" src="img/footerlogo.png" alt="">
                 </a>
                 <small class="text-white">© 2020. All Rights Reserved.</small>
